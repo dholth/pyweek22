@@ -18,7 +18,7 @@ env = Environment(tools=['default', 'packaging', enscons.generate],
 # Add extra 'purelib' files or package_data here.
 py_source = Glob('src/*/*.py')
 
-purelib = env.Whl('purelib', py_source, root='')
+purelib = env.Whl('purelib', py_source, root=metadata['src_root'])
 whl = env.WhlFile(purelib)
 
 # Add automatic source files, plus any other needed files.
