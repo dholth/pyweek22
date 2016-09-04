@@ -1,0 +1,20 @@
+syntax: glob
+*~
+*.swp
+*.orig
+*.egg
+*.so
+*.pyc
+.*project
+.settings
+.coverage
+.hgignore
+*.egg-info
+*.dist-info
+build
+dist
+.tox
+docs/_build
+htmlcov
+__pycache__
+resources
