@@ -1,0 +1,17 @@
+
+[tool]
+
+[tool.enscons]
+name = "pyweek22"
+version = "0.0.1"
+license="MIT"
+keywords=["pyweek"]
+author="Daniel Holth"
+author_email="dholth@fastmail.fm"
+url="https://pyweek.org/22/"
+description_file="README.rst"
+
+src_root = "src"
+
+[build-system]
+requires = ["pytoml>=0.1", "enscons"]

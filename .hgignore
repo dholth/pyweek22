@@ -6,11 +6,13 @@ syntax: glob
 *.so
 *.pyc
 .*project
+.sconsign*
 .settings
 .coverage
 .hgignore
 *.egg-info
 *.dist-info
+pyweek22-*
 build
 dist
 .tox
@@ -18,3 +20,5 @@ docs/_build
 htmlcov
 __pycache__
 resources
+PKG-INFO
+tree
