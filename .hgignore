@@ -21,4 +21,5 @@ htmlcov
 __pycache__
 resources
 PKG-INFO
-tree
+node_modules
+jspm_packages
