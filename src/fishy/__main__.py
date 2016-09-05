@@ -1,0 +1,2 @@
+import fishy
+fishy.main()
